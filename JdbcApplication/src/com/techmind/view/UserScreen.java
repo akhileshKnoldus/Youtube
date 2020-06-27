@@ -23,7 +23,6 @@ public class UserScreen {
 	
 	public static void userOption() throws Exception {
 		FetchData fetchData = new FetchData().getInstance();
-		//fetchData.initializeConnection();
 		optionList();
 
 	}

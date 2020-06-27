@@ -30,7 +30,7 @@ public class JdbcUtility {
 	static {
 		properties = new Properties();
 		try {
-			properties.load(new FileInputStream("src/database.properties"));
+			properties.load(new FileInputStream("resources/database.properties"));
 			DATA_BASE_NAME = properties.getProperty("dataBaseName"); 
 			USER_NAME= properties.getProperty("userName");
 			PASSWORD=properties.getProperty("password");
